@@ -5,6 +5,9 @@
 .title {
      font-size: 20px;
      text-decoration: none;
+}
+
+.type {
      font-weight: 500;
 }
 
@@ -18,13 +21,11 @@
 /*styles for tooltip text*/
 .hint {
     font-size: 13px;
-    font-weight: 400;
     color: #3D3D3D;
 }
 /*styles for form filling*/
 .form {
     font-size: 14px;
-    font-weight: 400;
 }
 /*styles for the button*/
 .button {
@@ -39,7 +40,6 @@
 .network{
     color: #727272;
     font-size: 13px;
-    font-weight: 500;
     text-decoration: none;
 }
 
