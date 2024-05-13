@@ -7,7 +7,10 @@
     <title>Register</title>
 </head>
 <body>
-    <div>
+    <div class="div">
+       <!-- <button>
+            <img src="/images/Vector 139 (Stroke).png" alt="button">
+        </button>-->
         <!--registration link-->
         <a href="#" class="title login">Login</a>
         <a href="#" class="title register">Register</a>    
@@ -15,36 +18,34 @@
             Enter your email and password to register.
         </p>
         <!--form to fill out-->
-        <form action="https://fom.in.ua/echo" method="post">
-           <input type="text" name="username" placeholder="Username" minlength="3" maxlength="10" required>
+        <form action="https://fom.in.ua/echo" method="post" >
+           <input type="text" name="username" placeholder="Username" minlength="3" maxlength="10" required class="form">
             <br>
-           <input type="email" name="email-address" placeholder="Enter your email address" required>
+           <input type="email" name="email-address" placeholder="Enter your email address" required class="form">
            <br>
-           <input type="password" name="password" placeholder="Password" minlength="8" maxlength="15" required>
+           <input type="password" name="password" placeholder="Password" minlength="8" maxlength="15" required class="form">
            <br>
-           <input type="password" name="confirm-password" placeholder="Confirm Password" minlength="8" maxlength="15" required>
+           <input type="password" name="confirm-password" placeholder="Confirm Password" minlength="8" maxlength="15" required class="form">
            <br>
            <button type="submit" class="button">
               Register
            </button>
         </form> 
         <p class="hint">
-            Or register with
-        </p>   
+            Or register with 
+        </p>  
         <!--registration through Google or Facebook-->
-        <a href="https://www.google.com">
+        <a href="https://www.google.com" class="network">
             <img src="/images/logo-google.png" 
               alt="Google" 
-              width="20" 
-              height="20">
+              class="picture">
             Continue with Google
         </a>
         <br>
-        <a href="https://www.facebook.com">
+        <a href="https://www.facebook.com" class="network">
             <img src="/images/facebook-logo.png" 
               alt="Facebook"
-              width="20" 
-              height="20">
+              class="picture">
             Continue with Facebook
         </a>   
     </div>
