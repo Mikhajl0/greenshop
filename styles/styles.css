@@ -11,3 +11,19 @@
 .register {
     color: #46A358;
 }
+
+.hint {
+    font-size: 13px;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+.button {
+    background-color: #46A358;
+    border-width: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
