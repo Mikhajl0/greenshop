@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Register</title>
+</head>
+<body>
+    <div>
+        <!--registration link-->
+        <a href="#">Login</a>
+        <a href="#">Register</a>    
+        <p>
+            Enter your email and password to register.
+        </p>
+        <!--form to fill out-->
+        <form action="https://fom.in.ua/echo" method="post">
+           <input type="text" name="username" placeholder="Username" minlength="3" maxlength="10" required>
+            <br>
+           <input type="email" name="email-address" placeholder="Enter your email address" required>
+           <br>
+           <input type="password" name="password" placeholder="Password" minlength="8" maxlength="15" required>
+           <br>
+           <input type="password" name="confirm-password" placeholder="Confirm Password" minlength="8" maxlength="15" required>
+           <br>
+           <button type="submit">
+              Register
+           </button>
+        </form> 
+        <p>
+            Or register with
+        </p>   
+        <!--registration through Google or Facebook-->
+        <a href="https://www.google.com">
+            <img src="/images/logo-google.png" 
+              alt="Google" 
+              width="20" 
+              height="20">
+            Continue with Google
+        </a>
+        <br>
+        <a href="https://www.facebook.com">
+            <img src="/images/facebook-logo.png" 
+              alt="Facebook"
+              width="20" 
+              height="20">
+            Continue with Facebook
+        </a>   
+    </div>
+</body>
+</html>
