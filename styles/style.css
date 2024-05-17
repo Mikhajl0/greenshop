@@ -5,9 +5,6 @@
 .title {
      font-size: 20px;
      text-decoration: none;
-}
-
-.type {
      font-weight: 500;
 }
 
@@ -41,9 +38,5 @@
     color: #727272;
     font-size: 13px;
     text-decoration: none;
+    font-weight: 500;
 }
-
-.picture {
-    width: 20px;
-    height: 20px;
-} 
